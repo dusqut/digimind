@@ -11,6 +11,21 @@
     width: 50px; /* Adjust the size as needed */
     height: 50px; /* Adjust the size as needed */
   }
+
+.telegram-float {
+    position: fixed;
+    bottom: 150px; /* Adjust the position as needed */
+    right: 15px;
+    z-index: 1000;
+}
+
+.telegram-float img {
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes it round */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
 .whatsapp-float {
     position: fixed;
     bottom: 85px;
